@@ -121,7 +121,7 @@ body, html{
 
 
 .family-card-block{
-    width: 70%;
+    width: 90%;
     height: 100%;
     display: flex;
     margin: auto;
@@ -289,9 +289,16 @@ body, html{
 }
 
 .wrapper-content{
-    width: 80%;
+    width: 40%;
+    justify-self: center;
     margin: auto;
     font-family: var(--font-fam);
+}
+
+.heading-text-f{
+    color: #fff;
+    margin-bottom: 20px;
+    width: 60%;
 }
 
 
@@ -466,7 +473,7 @@ input:focus{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 458px;
+    width: 90%;
     height: 52px;
     border-radius: 12px;
     background-color: rgba(229, 231, 235, 1);
@@ -497,6 +504,10 @@ input:focus{
 
 .ico-ico img{
     margin-left: 20px;
+}
+
+.ico-ico img:nth-child(1){
+    margin-left: 0;
 }
 
 .two-column-link{
